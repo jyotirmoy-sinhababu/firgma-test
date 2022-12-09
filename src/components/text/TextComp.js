@@ -1,9 +1,12 @@
 import React from 'react';
 
-const TextComp = () => {
+const TextComp = ({ txt, styleTxt }) => {
   return (
     <div>
-      <p></p>
+      <div>
+        {' '}
+        <p style={styleTxt}>{txt}</p>
+      </div>
     </div>
   );
 };
