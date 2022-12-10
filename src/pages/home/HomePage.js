@@ -3,9 +3,12 @@ import FirstPage from '../firstPage/FirstPage';
 
 const HomePage = () => {
   return (
-    <div>
-      <FirstPage />
-    </div>
+    <>
+      {' '}
+      <div>
+        <FirstPage />
+      </div>
+    </>
   );
 };
 
